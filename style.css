@@ -8,12 +8,6 @@ body {
     background-color: aquamarine;
 }
 
-#game {
-    width: 100%;
-    height: 800px;
-    background-color: lightcoral;
-}
-
 #chatbot {
     width: 100%;
     height: 800px;
@@ -35,9 +29,27 @@ img:hover {
     transform: scale(0.9);
 }
 
-.line{
+.line {
     height: 6px;
     width: 70px;
     background-color: black;
     margin: 8px auto;
+}
+
+#myCarousel{
+    background-color: lightcoral;
+}
+
+#myCarousel img{
+    height: 300px;
+    margin-top: 30px;
+}
+
+#myCarousel2{
+    background-color: lightcyan;
+}
+
+#myCarousel2 img{
+    height: 500px;
+    margin-top: 30px;
 }
