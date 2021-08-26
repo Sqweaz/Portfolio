@@ -1,107 +1,163 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link rel="stylesheet" href="style.css">
+    <title>Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-    <div class="container">
-        <section id="app">
-            <h1>Apps</h1>
-            <div class="line"></div>
-            <iframe width="352" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/myKHOrEWHQGMezkV5xlIDro3kGSEWJrGGRyCn5EbByM/embed"></iframe>
-            <iframe width="352" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/OvD6QimXGm3IPSMKrhqK93dC7eXccQccoG2lhjSv7pE/embed"></iframe>
-        </section>
 
-        <section id="game">
-            <h1>Games</h1>
-            <div class="line"></div>
-            <h2>Click on the games to explore</h2>
-            <h5>These games were built in sprite lab.</h5>
-            <div id="myCarousel" class="carousel slide">
-            <div class="carousel-inner">
-            <div class="item active">
-            <center>
-            <a href="https://studio.code.org/projects/spritelab/i8yk9p7ifmT5U3TfQvp7y3BtUxgQcP8mqE1JE77TFVg" target="_blank">
-            <img src="birdballoon.png">
-            </a>  
-            <div class="carousel-content">
-            <p>Pop the Balloon</p>    
-            </div>
-            </center>    
-            </div>
-                <div class="item">
-                <center>
-                <a href="https://studio.code.org/projects/spritelab/5QIJrIWfI-7Vbg57DVY9gB5teAdS8VhjC9weEEIlinw" target="_blank">
-                <img src="winnneh%20da%20pooh.png">
-                </a>   
-                <div class="carousel-content">
-                <p>Winnie the Pooh</p>    
-                </div>
-                </center>
-                </div>
-            </div>
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>    
-            </a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>    
-            </a>
-            </div>     
-        </section>
-        
-        <section id="thunkable">
-            <h1>Publishable apps</h1>
-            <div class="line"></div>
-            <h2>Click on the apps to explore</h2>
-            <h5>These apps were built on Thunkable.</h5>
-            <div id="myCarousel2" class="carousel slide">
-            <div class="carousel-inner">
-            <div class="item active">
-            <center>
-            <a href="https://x.thunkable.com/copy/d9d8b5ac632d5afccd0cca69dae719ad" target="_blank">
-            <img src="thunkable%20health%20app.PNG">
-            </a>  
-            <div class="carousel-content">
-            <p>Diabetes Health App</p>    
-            </div>
-            </center>    
-            </div>
-                <div class="item">
-                <center>
-                <a href="https://x.thunkable.com/copy/24a7d0dc0a1784ec09a8ea0616f9b7e8" target="_blank">
-                <img src="Password%20thunkable.PNG">
-                </a>   
-                <div class="carousel-content">
-                <p>Password Strength</p>    
-                </div>
-                </center>
-                </div>
-            </div>
-            <a class="left carousel-control" href="#myCarousel2" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>    
-            </a>
-            <a class="right carousel-control" href="#myCarousel2" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>    
-            </a>
-            </div>     
-        </section>
-        
-        <section id="Chatbot">
-            <h1>Chatbot</h1>
-            <div class="line"></div>
-            <iframe height="430" width="350" src="https://bot.dialogflow.com/57d829a0-4ac9-4909-afb0-a24d1ce3af78"></iframe>
-        </section>
-        <script src="main.js"></script>
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
 
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Saurav Gaur</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#travel">Travel</a></li>
+                <li><a href="#movies">Movies</a></li>
+                <li><a href="#environment">Environment</a></li>
+                <li><a href="#books">Books</a></li>
+                <li><a href="#about">About me</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <!--
+Start coding from here
+-->
+    <div class="page-header" id="travel">
+        <h2 class="text-capitalize">Places must Visit</h2>
     </div>
+
+    <center>
+        <div class="travel_maindiv">
+            <img class="img-responsive" src="Yelllowstone.jpg">
+            <h4 class="text-capitalize">Yellowstone National Park</h4>
+            <hr>
+            <h5 class="text-success text-left text-capitalize">I had visited Yellowstone National park 8/1/2021</h5>
+            <p class="text-muted text-left">Yellowstone natinal park has variaties of things ranging from canyons to hot springs, and geysers. One of my favortie things there was this specific geyser called Old Faithful which shoots boiling water a 100 METERS IN THE AIR!!!. One other thing i enjoyed was the grand Canypn of yellowstone the entire canyon was betiful when you reached the end there was a gigantic waterfall taht was absolutly spectacular.</p>
+        </div>
+    </center>
+
+    <center>
+        <div class="travel_maindiv">
+            <img class="img-responsive" src="southpadre.jpg">
+            <h4 class="text-capitalize">Schlitterbahn</h4>
+            <hr>
+            <h5 class="text-success text-left text-capitalize">I visited Schlitterbahn in 2014</h5>
+            <p> Schlliterbahn is in South Padre Island btw. In Schlitterbahn I played in the water. I was really young so I had to splash around in it cause I didnt know how to swim. Near the end of the trip I got scared because I saw a show about Pirahnas.</p>
+        </div>
+    </center>
+
+
+    <div class="page-header" id="movies">
+        <h2 class="text-capitalize">Movies to watch</h2>
+    </div>
+
+    <div class="bg-primary movie_head" data-toggle="collapse" data-target="#MugenTrain">
+        <span class="glyphicon glyphicon-film"></span>Demon Slayer the Movie: Mugen Train
+        <i class="fa fa-sort-desc"></i>
+    </div>
+
+    <div id="MugenTrain" class="collapse">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <img src="demon%20slayer%20mugen%20train.jpg" class="img-responsive img-thumbnail">
+        </div>
+
+        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+            <h5 class="text-success text-left text-capitalize">Best film ever!!!
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+            </h5>
+            <p>Description</p>
+        </div>
+    </div>
+
+    <div class="bg-primary movie_head" data-toggle="collapse" data-target="#Dogspurpose">
+        <span class="glyphicon glyphicon-film"></span>A dogs pupose
+        <i class="fa fa-sort-desc"></i>
+    </div>
+
+    <div id="Dogspurpose" class="collapse">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <img src="dogs-purpose-movie-2.png.crdownload" class="img-responsive img-thumbnail">
+        </div>
+
+        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+            <h5 class="text-success text-left text-capitalize">AMAZING FILM 1,000,000,000,000/10!!!
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+            </h5>
+            <p>Description</p>
+        </div>
+    </div>
+
+    <div class="page-header" id="enviorment">
+        <h2 class="text-capitalize">News about the enviorment</h2>
+    </div>
+
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-success col-lg-12 col md-12 col-sm-12 col-xs-12 environment_li">
+            <h4>LEGO plans to find replacement material for bricks by 2030</h4>
+            <img src="e1.jpeg" class="img-responsive col-lg-5 col md-5 col-sm-5 col-xs-12">
+            <p class="list-group-item-text col-lg-7 col md-7 col-sm-7 col-xs-12">In an effort to be more environmentally responsible, LEGO have said they aim to stop manufacturing bricks made of plastic resin and are considering other options, which could include hemp. According to Telegraph World, the company makes 60 billion blocks a year. While LEGO want to replace the harmful plastic used in their products, they also require the new material to meet the high standards that allow the blocks to work as they always have, especially with the effective “clicking” together is a key aspect of the iconic coloured block.</p>
+        </li>
+
+        <li class="list-group-item list-group-item-warning col-lg-12 col md-12 col-sm-12 col-xs-12 environment_li">
+            <h4>Amazon deforestation and number of fires show summer of 2019 not a 'normal' year</h4>
+            <img src="e3.jpeg" class="img-responsive col-lg-5 col md-5 col-sm-5 col-xs-12">
+            <p class="list-group-item-text col-lg-7 col md-7 col-sm-7 col-xs-12">The perceived scale of the Amazon blazes received global attention this summer. However, international concerns raised at the time were countered by the Brazilian Government, which claimed the fire situation in August was 'normal' and 'below the historical average'.An international team of scientists writing in the journal Global Change Biology say the number of active fires in August was actually three times higher than in 2018 and the highest number since 2010.</p>
+        </li>
+    </ul>
+
+
+
+    <section id="contact">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15078.353856082635!2d72.8906491!3d19.1257017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacf72f56793d190a!2sWHITEHAT%20EDUCATION%20TECHNOLOGY%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1573468987088!5m2!1sen!2sin" height="450" frameborder="0" allowfullscreen=""></iframe>
+
+        <hr style="width: 100%;">
+        <img src="me.jpg" class="img-responsive img-circle col-lg-3 col md-3 col-sm-3 col-xs-4">
+        <h3>Saurav Gaur</h3>
+
+        <div class="contact_1">
+
+            <a href="mailto:gaursaurav347@gmail.com?Subject=Hi">
+                <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;gaursaurav347@gmail.com</h5>
+            </a>
+
+            <a href="#">
+                <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;myinstagramid</h5>
+            </a>
+        </div>
+    </section>
+
+
 </body>
 
 </html>
